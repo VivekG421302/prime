@@ -1,0 +1,34 @@
+:root {
+  /* Define your brand colors and fonts */
+  --bg-color: #151515;
+  --text-color: #ffffff;
+  --font-main: "Lexend", sans-serif;
+  --font-logo: "Michroma", sans-serif;
+  --font-weight: 200
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-weight: var(--font-weight);
+  
+  /* Improves text rendering on dark backgrounds */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Ensure the background covers the full screen height */
+  min-height: 100vh;
+}
+
+/* Optional: Reset links to be white by default */
+a {
+  color: inherit;
+  text-decoration: none;
+}
